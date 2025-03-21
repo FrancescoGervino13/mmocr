@@ -12,8 +12,8 @@ import json
 
 import logging
 
-AZURE_API_KEY="94ec2d76955a48488952c81f0d591e94"
-AZURE_ENDPOINT="https://iitlines-swecentral1.openai.azure.com/"
+AZURE_API_KEY=""
+AZURE_ENDPOINT=""
 
 class TextInImage:
     def __init__(self):
