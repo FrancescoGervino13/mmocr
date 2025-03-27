@@ -107,7 +107,7 @@ delta = 5; x_limit = 639; y_limit = 479
 
 # Process multiple images
 for k in range(1,15) :
-    image_path = f"/home/fgervino-iit.local/text_dec_and_rec/resized{k}.jpg"
+    image_path = f"/text_dec_and_rec/resized{k}.jpg"
     # Load original image
     image = cv2.imread(image_path)
     crop_and_recognize(image, detector, text_recognizer, delta, x_limit, y_limit)
