@@ -121,7 +121,7 @@ scale_factor = 2
 
 # Process multiple images
 for k in range(1, 15):
-    image_path = f"/home/fgervino-iit.local/text_dec_and_rec/resized{k}.jpg"
+    image_path = f"/text_dec_and_rec/resized{k}.jpg"
     crop_and_recognize(image_path, detector, text_recognizer, scale_factor)
     #texts = crop_and_recognize(image_path, detector, text_recognizer, delta)
     #print(f"Texts for {k}:", texts)
