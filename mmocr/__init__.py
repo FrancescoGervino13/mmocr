@@ -31,7 +31,7 @@ if not mmengine or mmcv_version < digit_version('2.0.0rc0') or digit_version(
     )  # noqa
 
 assert (mmcv_version >= digit_version(mmcv_minimum_version)
-        and mmcv_version < digit_version(mmcv_maximum_version)), \
+        and mmcv_version <= digit_version(mmcv_maximum_version)), \
     f'MMCV {mmcv.__version__} is incompatible with MMOCR {__version__}. ' \
     f'Please use MMCV >= {mmcv_minimum_version}, ' \
     f'< {mmcv_maximum_version} instead.'

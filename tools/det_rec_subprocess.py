@@ -10,8 +10,7 @@ from merge_test import crop
 import sys
 import json
 
-import logging
-
+# Add keys for openAI
 AZURE_API_KEY=""
 AZURE_ENDPOINT=""
 
